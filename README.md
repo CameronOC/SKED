@@ -11,7 +11,11 @@
 Email server:
 
     export APP_MAIL_USERNAME="skedd.mail@gmail.com"
-	export APP_MAIL_PASSWORD="cumulonimbus"
+    export APP_MAIL_PASSWORD="cumulonimbus"
+
+SendGrid email:
+
+    export SENDGRID_API_KEY="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"
 
 for development:
 
@@ -23,13 +27,13 @@ for running tests:
 
 for production:
 		
-		export APP_SETTINGS="project.config.ProductionConfig"
+    export APP_SETTINGS="project.config.ProductionConfig"
 	
 ## For Windows
 
-	setx APP_SETTINGS "project.config.DevelopmentConfig"
+    setx APP_SETTINGS "project.config.DevelopmentConfig"
     setx APP_MAIL_USERNAME "skedd.mail@gmail.com"
-	setx APP_MAIL_PASSWORD "cumulonimbus"
+    setx APP_MAIL_PASSWORD "cumulonimbus"
 
 ### Create DB
 
